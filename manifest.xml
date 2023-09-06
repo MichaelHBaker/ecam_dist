@@ -71,16 +71,23 @@
                 </Control>
               </Group>
             </OfficeTab>
+<<<<<<< HEAD
 
             <CustomTab id="TabECAM_JS">
 
               <Group id="gpDataInputs">
                 <Label resid="gpDataInputs.label"/>
+=======
+            <CustomTab id="TabECAM_JS">
+              <Group id="CommandsGroupECAM">
+                <Label resid="CommandsGroup.Label"/>
+>>>>>>> cf56d1787c15b0ee694aba374e7d277df4153e94
                 <Icon>
                   <bt:Image size="16" resid="Icon.16x16"/>
                   <bt:Image size="32" resid="Icon.32x32"/>
                   <bt:Image size="80" resid="Icon.80x80"/>
                 </Icon>
+<<<<<<< HEAD
 
                 <Control xsi:type="Button" id="btnSelectIntervalData1">
 
@@ -129,10 +136,47 @@
               <Label resid="tbECAM_JS.label"/>
             </CustomTab>
 
+=======
+                <Control xsi:type="Button" id="TaskpaneButtonECAM">
+                  <Label resid="TaskpaneButton.Label"/>
+                  <Supertip>
+                    <Title resid="TaskpaneButton.Label"/>
+                    <Description resid="TaskpaneButton.Tooltip"/>
+                  </Supertip>
+                  <Icon>
+                    <bt:Image size="16" resid="Icon.16x16"/>
+                    <bt:Image size="32" resid="Icon.32x32"/>
+                    <bt:Image size="80" resid="Icon.80x80"/>
+                  </Icon>
+                  <Action xsi:type="ShowTaskpane">
+                    <TaskpaneId>ButtonId1</TaskpaneId>
+                    <SourceLocation resid="Taskpane.Url"/>
+                  </Action>
+                </Control>
+                <Control xsi:type="Button" id="ToggleProtectionECAM">
+                  <Label resid="ProtectionButtonLabel" />
+                  <Supertip>
+                    <Title resid="ProtectionButtonLabel" />
+                    <Description resid="ProtectionButtonToolTip" />
+                  </Supertip>
+                  <Icon>
+                      <bt:Image size="16" resid="Icon.16x16"/>
+                      <bt:Image size="32" resid="Icon.32x32"/>
+                      <bt:Image size="80" resid="Icon.80x80"/>
+                  </Icon>
+                  <Action xsi:type="ExecuteFunction">
+                      <FunctionName>toggleProtection</FunctionName>
+                  </Action>
+                </Control>
+              </Group>
+              <Label resid="customTabLabel1" />
+            </CustomTab>
+>>>>>>> cf56d1787c15b0ee694aba374e7d277df4153e94
           </ExtensionPoint>
         </DesktopFormFactor>
       </Host>
     </Hosts>
+<<<<<<< HEAD
 
     <Resources>
       <bt:Images>
@@ -152,11 +196,20 @@
 
       </bt:Images>
 
+=======
+    <Resources>
+      <bt:Images>
+        <bt:Image id="Icon.16x16" DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/assets/icon-16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/assets/icon-32.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/assets/icon-80.png"/>
+      </bt:Images>
+>>>>>>> cf56d1787c15b0ee694aba374e7d277df4153e94
       <bt:Urls>
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812"/>
         <bt:Url id="Commands.Url" DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/commands.html"/>
         <bt:Url id="Taskpane.Url" DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/taskpane.html"/>
       </bt:Urls>
+<<<<<<< HEAD
       
       <bt:ShortStrings>
 
@@ -171,10 +224,14 @@
         <bt:String id="btnSelectBillingData1.Title" DefaultValue="Select Monthly Billing Data"/>
 
 
+=======
+      <bt:ShortStrings>
+>>>>>>> cf56d1787c15b0ee694aba374e7d277df4153e94
         <bt:String id="GetStarted.Title" DefaultValue="Get started with your sample add-in!"/>
         <bt:String id="CommandsGroup.Label" DefaultValue="Commands Group"/>
         <bt:String id="TaskpaneButton.Label" DefaultValue="Show Taskpane"/>
         <bt:String id="ProtectionButtonLabel" DefaultValue="Toggle Worksheet Protection" />
+<<<<<<< HEAD
 
       </bt:ShortStrings>
       <bt:LongStrings>
@@ -186,6 +243,15 @@
         <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to Show a Taskpane"/>
         <bt:String id="ProtectionButtonToolTip" DefaultValue="Click to protect or unprotect the current worksheet." />
 
+=======
+        <bt:String id="customTabLabel1" DefaultValue="ECAM_JS" />
+
+      </bt:ShortStrings>
+      <bt:LongStrings>
+        <bt:String id="GetStarted.Description" DefaultValue="Your sample add-in loaded succesfully. Go to the HOME tab and click the 'Show Taskpane' button to get started."/>
+        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to Show a Taskpane"/>
+        <bt:String id="ProtectionButtonToolTip" DefaultValue="Click to protect or unprotect the current worksheet." />
+>>>>>>> cf56d1787c15b0ee694aba374e7d277df4153e94
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
