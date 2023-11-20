@@ -6,8 +6,8 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="ECAM JS"/>
   <Description DefaultValue="Office.js version of ECAM."/>
-  <IconUrl DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/assets/icon-64.png"/>
+  <IconUrl DefaultValue="https://michaelhbaker.github.io/ecam_dist/assets/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://michaelhbaker.github.io/ecam_dist/assets/icon-64.png"/>
   <SupportUrl DefaultValue="https://www.contoso.com/help"/>
   <AppDomains>
     <AppDomain>https://www.contoso.com</AppDomain>
@@ -16,7 +16,7 @@
     <Host Name="Workbook"/>
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/taskpane.html"/>
+    <SourceLocation DefaultValue="https://michaelhbaker.github.io/ecam_dist/taskpane.html"/>
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
@@ -122,27 +122,27 @@
     <Resources>
       <bt:Images>
 
-        <bt:Image id="gpDataInputs.1" DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/assets/icon-16.png"/>
-        <bt:Image id="gpDataInputs.3" DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/assets/icon-32.png"/>
-        <bt:Image id="gpDataInputs.8" DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/assets/icon-80.png"/>
+        <bt:Image id="gpDataInputs.1" DefaultValue="https://michaelhbaker.github.io/ecam_dist/assets/icon-16.png"/>
+        <bt:Image id="gpDataInputs.3" DefaultValue="https://michaelhbaker.github.io/ecam_dist/assets/icon-32.png"/>
+        <bt:Image id="gpDataInputs.8" DefaultValue="https://michaelhbaker.github.io/ecam_dist/assets/icon-80.png"/>
 
-        <bt:Image id="IconSelectArea.1" DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/assets/IconSelectArea_16.png"/>
-        <bt:Image id="IconSelectArea.3" DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/assets/IconSelectArea_32.png"/>
-        <bt:Image id="IconSelectArea.8" DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/assets/IconSelectArea_80.png"/>
+        <bt:Image id="IconSelectArea.1" DefaultValue="https://michaelhbaker.github.io/ecam_dist/assets/IconSelectArea_16.png"/>
+        <bt:Image id="IconSelectArea.3" DefaultValue="https://michaelhbaker.github.io/ecam_dist/assets/IconSelectArea_32.png"/>
+        <bt:Image id="IconSelectArea.8" DefaultValue="https://michaelhbaker.github.io/ecam_dist/assets/IconSelectArea_80.png"/>
 
-        <bt:Image id="CalendarToolSelectDate.1" DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/assets/CalendarToolSelectDate_16.png"/>
-        <bt:Image id="CalendarToolSelectDate.3" DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/assets/CalendarToolSelectDate_32.png"/>
-        <bt:Image id="CalendarToolSelectDate.8" DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/assets/CalendarToolSelectDate_80.png"/>
+        <bt:Image id="CalendarToolSelectDate.1" DefaultValue="https://michaelhbaker.github.io/ecam_dist/assets/CalendarToolSelectDate_16.png"/>
+        <bt:Image id="CalendarToolSelectDate.3" DefaultValue="https://michaelhbaker.github.io/ecam_dist/assets/CalendarToolSelectDate_32.png"/>
+        <bt:Image id="CalendarToolSelectDate.8" DefaultValue="https://michaelhbaker.github.io/ecam_dist/assets/CalendarToolSelectDate_80.png"/>
 
-        <bt:Image id="CreateQuickStep.1" DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/assets/IconSelectArea_16.png"/>
-        <bt:Image id="CreateQuickStep.3" DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/assets/IconSelectArea_32.png"/>
-        <bt:Image id="CreateQuickStep.8" DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/assets/IconSelectArea_80.png"/>
+        <bt:Image id="CreateQuickStep.1" DefaultValue="https://michaelhbaker.github.io/ecam_dist/assets/IconSelectArea_16.png"/>
+        <bt:Image id="CreateQuickStep.3" DefaultValue="https://michaelhbaker.github.io/ecam_dist/assets/IconSelectArea_32.png"/>
+        <bt:Image id="CreateQuickStep.8" DefaultValue="https://michaelhbaker.github.io/ecam_dist/assets/IconSelectArea_80.png"/>
 
 
       </bt:Images>
 
       <bt:Urls>
-        <bt:Url id="Commands.Url" DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/commands.html"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://michaelhbaker.github.io/ecam_dist/commands.html"/>
       </bt:Urls>
       
       <bt:ShortStrings>

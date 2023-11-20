@@ -6,8 +6,8 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="My Office Add-in"/>
   <Description DefaultValue="A template to get started."/>
-  <IconUrl DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/assets/icon-64.png"/>
+  <IconUrl DefaultValue="https://michaelhbaker.github.io/ecam_dist/assets/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://michaelhbaker.github.io/ecam_dist/assets/icon-64.png"/>
   <SupportUrl DefaultValue="https://www.contoso.com/help"/>
   <AppDomains>
     <AppDomain>https://www.contoso.com</AppDomain>
@@ -16,7 +16,7 @@
     <Host Name="Workbook"/>
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/taskpane.html"/>
+    <SourceLocation DefaultValue="https://michaelhbaker.github.io/ecam_dist/taskpane.html"/>
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
@@ -137,25 +137,25 @@
     <Resources>
       <bt:Images>
 
-        <bt:Image id="Icon.16x16" DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/assets/icon-16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/assets/icon-32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/assets/icon-80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://michaelhbaker.github.io/ecam_dist/assets/icon-16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://michaelhbaker.github.io/ecam_dist/assets/icon-32.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://michaelhbaker.github.io/ecam_dist/assets/icon-80.png"/>
 
-        <bt:Image id="IconSelectArea.16x16" DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/assets/IconSelectArea_16.png"/>
-        <bt:Image id="IconSelectArea.32x32" DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/assets/IconSelectArea_32.png"/>
-        <bt:Image id="IconSelectArea.80x80" DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/assets/IconSelectArea_80.png"/>
+        <bt:Image id="IconSelectArea.16x16" DefaultValue="https://michaelhbaker.github.io/ecam_dist/assets/IconSelectArea_16.png"/>
+        <bt:Image id="IconSelectArea.32x32" DefaultValue="https://michaelhbaker.github.io/ecam_dist/assets/IconSelectArea_32.png"/>
+        <bt:Image id="IconSelectArea.80x80" DefaultValue="https://michaelhbaker.github.io/ecam_dist/assets/IconSelectArea_80.png"/>
 
-        <bt:Image id="CalendarToolSelectDate.16x16" DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/assets/CalendarToolSelectDate_16.png"/>
-        <bt:Image id="CalendarToolSelectDate.32x32" DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/assets/CalendarToolSelectDate_32.png"/>
-        <bt:Image id="CalendarToolSelectDate.80x80" DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/assets/CalendarToolSelectDate_80.png"/>
+        <bt:Image id="CalendarToolSelectDate.16x16" DefaultValue="https://michaelhbaker.github.io/ecam_dist/assets/CalendarToolSelectDate_16.png"/>
+        <bt:Image id="CalendarToolSelectDate.32x32" DefaultValue="https://michaelhbaker.github.io/ecam_dist/assets/CalendarToolSelectDate_32.png"/>
+        <bt:Image id="CalendarToolSelectDate.80x80" DefaultValue="https://michaelhbaker.github.io/ecam_dist/assets/CalendarToolSelectDate_80.png"/>
 
 
       </bt:Images>
 
       <bt:Urls>
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812"/>
-        <bt:Url id="Commands.Url" DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/commands.html"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://michaelhbaker.github.io/test_ecam_dist/taskpane.html"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://michaelhbaker.github.io/ecam_dist/commands.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://michaelhbaker.github.io/ecam_dist/taskpane.html"/>
       </bt:Urls>
       
       <bt:ShortStrings>
